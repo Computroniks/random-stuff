@@ -1,0 +1,1 @@
+print(eval("str(bin(int((input('Please enter number to convert to binary: '))))).lstrip('0b')") if int(input('What do you want to convert?\n[1] Deanery to binary\n[2] Binary to deanery\nEnter your option [1/2]: ')) == 1 else eval("int(input('Please enter a binanary number to convert to decimal: '), base=2)"))
